@@ -1,0 +1,17 @@
+micronaut:
+  application:
+    name: demoLatticeMicronautBug
+netty:
+  default:
+    allocator:
+      max-order: 3
+redis:
+  uri: redis://localhost
+  password: bla-bla
+
+endpoints:
+  beans:
+    enabled: true
+    sensitive: false
+  health:
+    enabled: true
